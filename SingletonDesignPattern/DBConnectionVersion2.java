@@ -1,3 +1,5 @@
+package SingletonDesignPattern;
+
 public class DBConnectionVersion2 {
     String userName;
     String userPassword;

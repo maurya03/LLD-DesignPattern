@@ -1,3 +1,5 @@
+package SingletonDesignPattern;
+
 public class Subtract implements Runnable{
     @Override
     public void run() {

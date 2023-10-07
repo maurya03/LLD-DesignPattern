@@ -1,3 +1,5 @@
+package SingletonDesignPattern;
+
 public class DBConnectionVersion1 {
     /*
         The basic idea behind Singleton Design Pattern is to....
