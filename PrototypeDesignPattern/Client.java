@@ -61,6 +61,7 @@ public class Client {
            class.
         3. If a student class have an inheritance hierarchy, the client will also show OCP violates.
          */
+        // For Optimized Version 1, 2 & 3 have created getStudent()...
     }
 
     // Looking for OCP Violates...

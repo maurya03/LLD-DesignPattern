@@ -15,9 +15,13 @@ public class FinanciallyAidStudent extends StudentOptimizedApproach2/*extends St
         super(orig);
         this.scholarshipAmount = orig.scholarshipAmount;
     }
+    //end
+
+    // Version 3..begin
 
     FinanciallyAidStudent Clone()
     {
         return new FinanciallyAidStudent(this);
     }
+    //end
 }
