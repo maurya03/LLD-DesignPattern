@@ -1,7 +1,6 @@
 package PrototypeDesignPattern;
 
 public class StudentOptimizedApproach0 {
-
     /*
         Summary of Scenario to use prototype and registry...
         1. Multiple objects with nearly same objects (only a few difference) might be required.
