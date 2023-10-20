@@ -43,7 +43,7 @@ ArrayList<Node> children;
 --- Defining Structure of node ---
 }
 3. Behavioural Design Pattern
-3.1 Bothers about how to add behaviours to classes.
-Ex. 1. Iterator Design Pattern -- we will iterate ( apply iterator on each element of above create
-Node).
-2. Strategy Design Pattern
+   3.1 Bothers about how to add behaviours to classes.
+   Ex. 1. Iterator Design Pattern -- we will iterate ( apply iterator on each element of above create
+          Node).
+       2. Strategy Design Pattern
