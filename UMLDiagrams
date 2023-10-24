@@ -1,0 +1,89 @@
+UML Diagrams: [Unified modelling language]
+    1. Use case Diagram
+    2. Class Diagrams
+
+Why do we need?
+    Collaboration among stakeholders is necessary to write software
+    What are the things needed
+        1. Communication
+            1.1 Non-ambiguous
+            1.2 Fast and easy to understand
+        2. Communication via words - PPT / Doc /Email
+            2.1 Can be ambiguous
+            2.2 Slow to understand
+    A picture is worth the thousands words.
+
+    Diagrams / Images for technical communication
+        1. Faster to understand
+        2. Images can also be ambiguous A->B / A<-B
+
+        Solutions to resolve ambiguity problem is standardization. i.e, UML (Unified Modelling language)
+UML: A standardised representation of software concepts via diagrams.
+
+Categories of UML Diagrams:
+    1. Structural UML (How is codebase structured)
+        1.1 Class Diagram
+        1.2 Object Diagram
+        1.3 Package Diagram
+        1.4 Component Diagram
+    2. Behavioural Diagram (How does a system works)
+        2.1 Use case diagram
+        2.2 Activity diagram
+        2.3 Sequence diagram
+
+Class Diagram:
+    1. Classes
+    2. Interfaces
+    3. Enums
+    4. Abstract classes
+ Relations between classes
+    1. who implements what?
+    2. who extends what?
+    3. what is an attribute of what?
+ Q. How to represent a class?
+    Class Rectangle {
+        Attributes;
+            [AccessModifier] [Name] : [datatype]
+            - private
+            + public
+            # protected
+            ~ default
+            static data members are underlined
+            final data members are in capital
+
+            For Ex:
+            class Student {
+                private int age;
+                private string name;
+                public static string schoolName;
+                public static final int fees;
+
+                public int solveProblem(int qid, int qtype){}
+            }
+
+            Student
+    --------------------------
+            - age : int
+            - name : String
+            + schoolName : string (Underlined)
+            + FEES : int (underlined)
+
+           -- How to define methods in class diagrams --
+
+           + solveProblem(int, int) : int
+
+    ----- How to define a interface -----
+    <<Flyable>>
+    + fly() : void
+
+    --- Abstract Class ---
+       Animal (Italic form)
+
+       + fly() : void  --> normal method
+       + cat() : void --> An abstract method
+
+    --- Enums ---
+
+
+
+
